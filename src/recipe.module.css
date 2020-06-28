@@ -1,0 +1,19 @@
+.recipe {
+	border-radius: 10px;
+	box-shadow: 0 5px 20ox rgb(71, 71, 71);
+	margin: 20px;
+	padding: 20px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background: white;
+	align-items: center;
+	min-width: 40%;
+}
+
+@media only screen and (min-width: 1024px) {
+	.recipe {
+		width: calc(50% - 80px);
+	}
+}
